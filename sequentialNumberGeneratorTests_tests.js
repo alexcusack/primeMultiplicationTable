@@ -1,4 +1,4 @@
-import { squentialNumberGenerator } from './primes'
+import { sequentialNumberGenerator } from './primes'
 ;[
   {
     name: 'squentialNumberGenerator test, empty base:',
@@ -16,7 +16,7 @@ import { squentialNumberGenerator } from './primes'
   }
 ].forEach((td) => {
   const actual = []
-  const nums = squentialNumbers(td.input)
+  const nums = sequentialNumbers(td.input)
   for (let i = 1; i <= 5; ++i) { actual.push(nums.next().value) }
   const pass = JSON.stringify(actual) === JSON.stringify(td.expected)
   if (pass) {
