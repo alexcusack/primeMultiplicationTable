@@ -1,4 +1,4 @@
-import { sequentialNumberGenerator } from './primes'
+import { sequentialNumberGenerator } from '../generatePrimes'
 
 ;[
   {

@@ -1,4 +1,4 @@
-import { generatePrimeNumberList } from './primes'
+import { generatePrimeNumberList } from '../generatePrimes'
 
 ;[
   {

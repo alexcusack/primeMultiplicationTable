@@ -1,4 +1,4 @@
-import { getNextPrimeNumber } from './primes'
+import { getNextPrimeNumber } from '../generatePrimes'
 
 ;[
   {
