@@ -1,4 +1,5 @@
 import { sequentialNumberGenerator } from './primes'
+
 ;[
   {
     name: 'squentialNumberGenerator test, empty base:',
