@@ -13,10 +13,10 @@ export function * getNextPrimeNumber (numberList, currentPrimeNumber) {
 }
 
 export function * generatePrimeNumberList () {
-  let numberList = sequentialNumbers(2)
+  let primeList = sequentialNumbers(2)
   while (true) {
-    let prime = numberList.next().value
+    let prime = primeList.next().value
     yield prime
-    numberList = getNextPrimeNumber(numberList, prime)
+    primeList = getNextPrimeNumber(primeList, prime)// a list of sequential prime numbers as they're found
   }
 }

@@ -1,0 +1,15 @@
+{
+  "name": "prime_multiplication_table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "buildTable.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo tests/*_tests.js | xargs -n1 babel-node",
+    "start": "babel-node run.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
