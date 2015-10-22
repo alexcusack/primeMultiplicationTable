@@ -1,4 +1,4 @@
-import { generateTable } from './buildTable'
+import { generateTable, generateTableForDisplay } from './buildTable'
 import { generatePrimeNumberList } from './generatePrimes'
 
 const listSize = parseInt(process.argv[2]) || 10
@@ -13,8 +13,9 @@ const take = (generator, listSize) => {
   return list
 }
 
-console.log(generateTable(take(primes, listSize)))
+const multiplicationTableWithHeader = generateTable(take(primes, listSize))
 
+console.log(generateTableForDisplay(multiplicationTableWithHeader))
 
 
 // list
