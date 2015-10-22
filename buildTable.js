@@ -10,7 +10,7 @@ export const generateMultiplcationTableRowForValue = (currentValue, listOfPrimes
 }
 
 const addTableHeader = (listOfPrimes, table) => {
-  const header = ['Prime'].concat(listOfPrimes)
+  const header = ['Primes'].concat(listOfPrimes)
   return {table: table, header: header}
 }
 
@@ -34,7 +34,7 @@ const createTable = (generatedTableWithHeaders) => {
 const tableColumns = (columntCount) => {
   const columns = []
   for (let i = 0; i < columntCount; ++i) {
-    columns.push(10)
+    columns.push(8)
   }
   return columns
 }
