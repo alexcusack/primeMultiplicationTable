@@ -16,10 +16,3 @@ const take = (generator, listSize) => {
 const multiplicationTableWithHeader = generateTable(take(primes, listSize))
 
 console.log(generateTableForDisplay(multiplicationTableWithHeader))
-
-
-// list
-// package.json
-// readme.md
-// format function -- charm
-// command to run test --  echo tests/*_tests.js | xargs -n1 babel-node
