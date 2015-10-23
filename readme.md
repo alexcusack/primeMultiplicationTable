@@ -22,4 +22,4 @@ npm test
 * Run individual files with `babel-node <filepath>`
 
 ## Notes
-* Babel runtime causes stack overflow error at ≈10,000 primes mark since Babel implements the ES6 generators using recursion. The native implementation in ES6 does not actually use recursion
+* Babel runtime causes stack overflow error at ≈10,000 primes target
