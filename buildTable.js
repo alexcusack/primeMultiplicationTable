@@ -27,13 +27,13 @@ export const generateTableForDisplay = (generatedTableWithHeaders) => {
 const createTable = (generatedTableWithHeaders) => {
   return new Table({
     head: generatedTableWithHeaders.header,
-    colWidths: tableColumns(generatedTableWithHeaders.header.length),
+    colWidths: buildColumns(generatedTableWithHeaders.header.length),
   })
 }
 
-const tableColumns = (columntCount) => {
+const buildColumns = (columnCount) => {
   const columns = []
-  for (let i = 0; i < columntCount; ++i) {
+  for (let i = 0; i < columnCount; ++i) {
     columns.push(8)
   }
   return columns
