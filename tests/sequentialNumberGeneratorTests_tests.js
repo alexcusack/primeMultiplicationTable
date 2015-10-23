@@ -2,16 +2,16 @@ import { sequentialNumbers } from '../generatePrimes'
 
 ;[
   {
-    name: 'squentialNumberGenerator test, empty base:',
+    name: 'sequentialNumberGenerator test, empty base:',
     expected: [1, 2, 3, 4, 5],
   },
   {
-    name: 'squentialNumberGenerator test, base 1:',
+    name: 'sequentialNumberGenerator test, base 1:',
     input: 1,
     expected: [1, 2, 3, 4, 5],
   },
   {
-    name: 'squentialNumberGenerator test, base 88:',
+    name: 'sequentialNumberGenerator test, base 88:',
     input: 81,
     expected: [81, 82, 83, 84, 85],
   }
