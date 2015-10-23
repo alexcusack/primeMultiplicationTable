@@ -22,4 +22,4 @@ npm test
 * Run individual files with `babel-node <filepath>`
 
 ## Notes
-* Babel runtime causes stack overflow error at ≈10,000 primes target
+* Babel runtime causes stack overflow error at ≈2,500 primes target
